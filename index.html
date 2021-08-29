@@ -2,8 +2,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta charset="utf-8">
-  <title>Personal website of Tom Byers</title>
-  <meta name="description" content="Personal website of Tom Byers">
+  <title>The personal website of Tom Byers</title>
+  <meta name="description" content="The personal website of Tom Byers">
   <meta name="author" content="Tom Byers">
 
   <meta property="og:title" content="Personal website of Tom Byers">
@@ -20,7 +20,49 @@
     body {
       font-family: Arial, sans-serif;
       font-size: 19px;
+      color: #333;
       text-align: center;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #fff;
+        background: #000;
+      }
+    }
+
+    a {
+
+    }
+
+    a:visited {
+
+    }
+
+    a:hover {
+
+    }
+
+    a:focus {
+
+    }
+
+    @media (prefers-color-scheme: dark) {
+      a {
+        color: #00abff;
+      }
+
+      a:visited {
+
+      }
+
+      a:hover {
+
+      }
+
+      a:focus {
+
+      }
     }
 
     main {
@@ -29,12 +71,16 @@
       text-align: left;
     }
 
-    @media (min-width: 320px) {
+    @media (min-width: 959px) {
       main {
         width: 960px;
         margin-left: auto;
         margin-right: auto;
       }
+    }
+
+    .info {
+      max-width: 38em;
     }
   </style>
 </head>
@@ -45,7 +91,7 @@
       <h1 class="header">Tom Byers</h1>
     </header>
     <p class="info">
-      I work as a <a href="">frontend developer</a> at the <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>.
+      I work as a <a href="https://www.gov.uk/guidance/frontend-developer#Senior-frontend">frontend developer</a> at the <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>.
     </p>
     <p class="info">
       I've been a frontend developer since 2007. My full work history is on <a href="https://uk.linkedin.com/in/tom-byers-572990b">LinkedIn</a>.
@@ -55,6 +101,15 @@
     </p>
     <p class="info">
       I'm on Twitter as <a href="https://twitter.com/tombaromba">@tombaromba</a>. I try to check it regularly.
+    </p>
+    <h2 class="subheading">
+      Personal things about me
+    </h2>
+    <p class="info">
+      I like walking. Some of the best stuff is on <a href="https://trexit.org.uk/">Trexit</a>.
+    </p>
+    <p class="info">
+      I used to do art and I've always enjoyed drawing. Here are <a href="https://www.flickr.com/photos/32167914@N00/sets/72157627678483672/">some of my favourite drawings on Flickr</a>.
     </p>
   </main>
 </body>
