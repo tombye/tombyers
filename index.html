@@ -2,8 +2,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta charset="utf-8">
-  <title>The personal website of Tom Byers</title>
-  <meta name="description" content="The personal website of Tom Byers">
+  <title>Tom Byers&rsquo; website</title>
+  <meta name="description" content="Tom Byers&rsquo; website">
   <meta name="author" content="Tom Byers">
 
   <meta property="og:title" content="Personal website of Tom Byers">
@@ -31,65 +31,71 @@
       }
     }
 
-    a {
-
+    p {
+      margin: 0;
     }
 
+    a,
     a:visited {
-
+      color: #025dca;
     }
 
     a:hover {
-
+      color: #4688d4;
     }
 
     a:focus {
-
+      color: #000000;
+      background: #ffcb01;
+      outline: solid 3px #ffcb01;
     }
 
     @media (prefers-color-scheme: dark) {
-      a {
+      a,
+      a:visited {
         color: #00abff;
       }
 
-      a:visited {
-
-      }
-
-      a:hover {
-
-      }
-
       a:focus {
-
+        color: #ffffff;
+        background: #971497;
+        outline: solid 3px #951f95;
       }
     }
 
     main {
       display: block;
-      margin: 2em 1em;
+      margin: 0 1em;
       text-align: left;
     }
 
     @media (min-width: 959px) {
       main {
         width: 960px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto 2em;
       }
+    }
+
+    .header {
+      font-size: 48px;
+      margin: 0.87em 0 0.59em;
+    }
+
+    .subheading {
+      font-size: 36px;
+      margin: 1.18em 0 0.79em;
     }
 
     .info {
       max-width: 38em;
+      margin: 0 0 1.5em;
+      line-height: 1.5;
     }
   </style>
 </head>
 <body>
   <main>
-    <header>
-      <p class="header__prefix">The personal website of</p>
-      <h1 class="header">Tom Byers</h1>
-    </header>
+    <h1 class="header">Tom Byers&rsquo; website</h1>
     <p class="info">
       I work as a <a href="https://www.gov.uk/guidance/frontend-developer#Senior-frontend">frontend developer</a> at the <a href="https://www.gov.uk/government/organisations/government-digital-service">Government Digital Service</a>.
     </p>
